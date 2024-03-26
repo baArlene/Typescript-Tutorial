@@ -45,4 +45,20 @@ let items:{title:string; cost?:number}[] = [book, pencil, ruler]
 let itemsPlus = [book, pencil, ruler]
 
 
+// Functions
 
+const nameList = ['john', 'joe', 'mary', 'jim']
+
+function isNameInList(name:string){
+    return nameList.includes(name)
+}
+
+let nameToCheck = 'jim'
+
+if (isNameInList(nameToCheck)) {
+    console.log(`${nameToCheck} is in the list`);
+    
+} else {
+    console.log(`${nameToCheck} is not the list`);
+    
+}
