@@ -30,3 +30,19 @@ let fruit:string[] = ['apple', 'orange']
 let emptyValues:number[] = [];
 
 let names = ['peter', 'john', 'regis', 10]
+
+
+// objects & func
+
+let car:{brand:string; year: number} = {brand: 'audi', year: 2021}
+
+let book = {title: 'Clear In the rain', cost: 200}
+let pencil = {title: 'Bic', cost: 25}
+let ruler = {title: 'Tape'}
+
+let items:{title:string; cost?:number}[] = [book, pencil, ruler]
+
+let itemsPlus = [book, pencil, ruler]
+
+
+
