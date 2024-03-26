@@ -53,12 +53,10 @@ function isNameInList(name:string){
     return nameList.includes(name)
 }
 
-let nameToCheck = 'jim'
+let nameToCheck = 'mary'
 
 if (isNameInList(nameToCheck)) {
     console.log(`${nameToCheck} is in the list`);
-    
 } else {
-    console.log(`${nameToCheck} is not the list`);
-    
+    console.log(`${nameToCheck} is not the list`);   
 }
